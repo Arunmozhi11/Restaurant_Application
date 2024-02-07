@@ -50,14 +50,14 @@ const Header = () => {
         <ul className="hidden lg:flex items-center justify-center gap-16 text-[20px]">
           <NavLink
             to={"/"}
-            className={`nav-link ${navbar ? "active" : ""}`}
+            className={`nav-link ${navbar ? "active" : ""} hover:text-orange-600`}
             activeClassName="active"
           >
             Home
           </NavLink>
           <NavLink
             to={"/Menu"}
-            className={`nav-link ${navbar ? "active" : ""}`}
+            className={`nav-link ${navbar ? "active" : ""} hover:text-orange-600`}
             activeClassName="active"
             
           >
@@ -65,7 +65,7 @@ const Header = () => {
           </NavLink>
           <NavLink
             to={"/Aboutus"}
-            className={`nav-link ${navbar ? "active" : ""}`}
+            className={`nav-link ${navbar ? "active" : ""} hover:text-orange-600`}
             activeClassName="active"
             
           >
@@ -73,7 +73,7 @@ const Header = () => {
           </NavLink>
           <NavLink
             to={"/Service"}
-            className={`nav-link ${navbar ? "active" : ""}`}
+            className={`nav-link ${navbar ? "active" : ""} hover:text-orange-600`}
             activeClassName="active"
           >
             Service
