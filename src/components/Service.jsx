@@ -119,7 +119,7 @@ const Service = () => {
 
 
 
-        <div className="w-full h-auto flex flex-wrap items-center mt-2 px-6 md:px-24 2xl:px-96 gap-3 bg-gray-800">
+        <div className="w-full h-auto flex flex-wrap items-center mt-2 px-6 md:px-24 2xl:px-96 gap-3 bg-gray-800 py-6">
           
           <div className="w-275 h-225 flex flex-col items-center bg-gray-800  gap-3 mt-3">
             <p className="font-semibold text-orange-500 text-[40px]">Company</p>
