@@ -8,7 +8,7 @@ import { RiCustomerService2Fill, IoPersonSharp, FaCartPlus, ImSpoonKnife  } from
 const Service = () => {
   return (
     <>
-      <div className="w-screen min-h-screen flex items-center justify-start flex-col bg-primary">
+      <div className="w-screen min-h-screen flex items-center justify-start flex-col bg-violet-50">
         <Header />
         <div className="w-full flex flex-col items-center mt-28 px-6 md:px-24 2xl:px-96 gap-2 pb-24">
           <div className="flex items-center justify-center gap-10">
