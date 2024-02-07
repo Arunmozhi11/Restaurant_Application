@@ -119,7 +119,7 @@ const Service = () => {
 
 
 
-        <div className="w-full h-510 flex flex-wrap items-center justify-center mt-2 px-6 md:px-24 2xl:px-96  bg-gray-800">
+        <div className="w-full h-auto flex flex-wrap items-center mt-2 px-6 md:px-24 2xl:px-96 gap-3 bg-gray-800">
           
           <div className="w-275 h-225 flex flex-col items-center bg-gray-800  gap-3 mt-3">
             <p className="font-bold text-orange-500 text-[40px]">Company</p>
@@ -179,7 +179,7 @@ const Service = () => {
           </div>
           <div className="w-[95%] h-1 bg-orange-500"></div>
           
-          <motion.div className="w-full bg-gray-800 grid grid-cols-1 md:grid-cols-2 px-2 ">
+          <motion.div className="w-full bg-gray-800 grid grid-cols-1 md:grid-cols-2 px-2 py-4">
             <div className="flex flex-col items-start justify-start">
               <p className="text-white font-semibold text-[15px]">
                 Copyright Your Site Name, All Right Reserved. Designed By HTML
