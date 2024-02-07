@@ -13,7 +13,7 @@ import { FaMapMarkerAlt, MdRoomService, TbTruckDelivery } from "../assets/icons"
 const AboutUs = () => {
   return (
     <>
-      <div className="w-screen min-h-screen flex items-center justify-start flex-col bg-primary">
+      <div className="w-screen min-h-screen flex items-center justify-start flex-col bg-violet-50">
         <Header />
         <div className="w-full flex flex-col items-center justify-center mt-20 px-6 md:px-24 2xl:px-96 gap-1 pb-24">
           <img src={FDL} alt="" className="w-40 h-40 flex justify-center" />
