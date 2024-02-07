@@ -49,7 +49,7 @@ const AboutUs = () => {
         </div>
 
         <div className="bg-black text-white w-full h-20 py-4">
-          <marquee behavior="" direction="right" className="text-[30px]">
+          <marquee behavior="" direction="left" className="text-[30px]">
             DOOR DELIVERY * OUTDOOR CATERING * FINE DINING * BANQUETS HALL
           </marquee>
         </div>
