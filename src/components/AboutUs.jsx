@@ -1,11 +1,6 @@
 import React from "react";
 import { FDL } from "../assets";
-import { A1 } from "../assets";
-import { A2 } from "../assets";
-import { A3 } from "../assets";
-
 import { AC } from "../assets";
-
 import { Header } from "../components";
 import { motion } from "framer-motion";
 import { FaMapMarkerAlt, MdRoomService, TbTruckDelivery } from "../assets/icons";
@@ -33,17 +28,28 @@ const AboutUs = () => {
             industry lorem <br /> Ipsum has been the industrys standard my text
             ever since the when an unknown <br />
             <span className="text-black text-[20px] font-semibold flex justify-center">
-              printer took a galley of type and scrambled it to make. img img
+              printer took a galley of type and scrambled it to make.
             </span>
           </p>
         </div>
-        
+
+        {/* <div className="w-full flex  items-center justify-around mt-2 px-6 md:px-24 2xl:px-96 gap-2 pb-24">
+          <div className="bg-lightOverlay hover:drop-shadow-lg backdrop-blur-md rounded-xl flex flex-wrap items-center justify-center px-4 py-2 h-full gap-5">
+            <img src={A1} alt="" className="w-80 h-60  mb-2" />
+
+            <img src={A2} alt="" className="w-80 h-60 mb-2" />
+
+            <img src={A3} alt="" className="w-80 h-60  mb-2" />
+          </div>
+        </div> */}
+
         <div className="gallery">
           <div></div>
           <div></div>
           <div></div>
         </div>
-        
+
+
         <div className="bg-black text-white w-full h-20 py-4 mt-10">
           <marquee behavior="" direction="left" className="text-[30px]">
             DOOR DELIVERY * OUTDOOR CATERING * FINE DINING * BANQUETS HALL
@@ -87,7 +93,7 @@ const AboutUs = () => {
         </div>
 
         <div className="w-full flex flex-wrap justify-center mt-2 px-6 md:px-24 2xl:px-96 gap-3 pb-24">
-          <div className="w-350 h-225 flex flex-col shadow-md gap-3">
+          <div className="w-350 h-auto flex flex-col shadow-md gap-3">
 
             <h1 className="text-orange-400 font-bold capitalize mt-5 text-[30px] px-4">
           <FaMapMarkerAlt />   
@@ -101,7 +107,7 @@ const AboutUs = () => {
             </p>
           </div>
 
-          <div className="w-350 h-225 flex flex-col shadow-md gap-3">
+          <div className="w-350 h-auto flex flex-col shadow-md gap-3">
             <h1 className="text-orange-400 font-bold capitalize mt-5 text-[30px] px-4">
             <TbTruckDelivery /> Free home delivery
             </h1>
@@ -113,7 +119,7 @@ const AboutUs = () => {
             </p>
           </div>
 
-          <div className="w-350 h-225 flex flex-col shadow-md gap-3">
+          <div className="w-350 h-auto flex flex-col shadow-md gap-3">
             <h1 className="text-orange-400 font-bold capitalize mt-5 text-[30px] px-4">
             <MdRoomService /> premium services
             </h1>
