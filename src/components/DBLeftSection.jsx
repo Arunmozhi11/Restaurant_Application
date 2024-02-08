@@ -8,7 +8,7 @@ const DBLeftSection = () => {
     <div className="h-full py-12 flex flex-col bg-lightOverlay backdrop-blur-md shadow-md min-w-210 w-300 gap-3">
       <NavLink to={"/"} className="flex items-center justify-start px-6 gap-4">
         <img src={FDL} className="w-16 h-16" alt="" />
-        <p className="font-semibold text-[25px]" id="title2">Cheesy</p>
+        <p className="font-semibold text-[30px]" id="title2">Cheesy</p>
       </NavLink>
 
       <hr />
