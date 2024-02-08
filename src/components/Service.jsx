@@ -1,9 +1,12 @@
 import React from "react";
 import { Header } from "../components";
 import { motion } from "framer-motion";
-import { RiCustomerService2Fill, IoPersonSharp, FaCartPlus, ImSpoonKnife  } from "../assets/icons";
-
-
+import {
+  RiCustomerService2Fill,
+  IoPersonSharp,
+  FaCartPlus,
+  ImSpoonKnife,
+} from "../assets/icons";
 
 const Service = () => {
   return (
@@ -24,12 +27,11 @@ const Service = () => {
           </h1>
         </div>
 
-        
-
         <div className="w-full flex flex-wrap items-center justify-center  mt-2 px-6 md:px-24 2xl:px-96 gap-3 pb-24">
-          <div className="w-275 h-225 flex flex-col shadow-md gap-3 mt-3">
+
+          <div className="w-275 h-auto flex flex-col shadow-md gap-3 mt-3">
             <h1 className="text-orange-400 font-bold capitalize mt-5 text-[30px] px-4">
-            <IoPersonSharp />   Master Chefs
+              <IoPersonSharp /> Master Chefs
             </h1>
 
             <p className="text-black px-4">
@@ -38,9 +40,9 @@ const Service = () => {
             </p>
           </div>
 
-          <div className="w-275 h-225 flex flex-col shadow-md gap-3 mt-3">
+          <div className="w-275 h-auto flex flex-col shadow-md gap-3 mt-3">
             <h1 className="text-orange-400 font-bold capitalize mt-5 text-[30px] px-4">
-            <ImSpoonKnife />   Quality Food
+              <ImSpoonKnife /> Quality Food
             </h1>
 
             <p className="text-black px-4">
@@ -49,9 +51,9 @@ const Service = () => {
             </p>
           </div>
 
-          <div className="w-275 h-225 flex flex-col shadow-md gap-3 mt-3">
+          <div className="w-275 h-auto flex flex-col shadow-md gap-3 mt-3">
             <h1 className="text-orange-400 font-bold capitalize mt-5 text-[30px] px-4">
-            <FaCartPlus />    Online Order
+              <FaCartPlus /> Online Order
             </h1>
 
             <p className="text-black px-4">
@@ -59,20 +61,9 @@ const Service = () => {
               diam
             </p>
           </div>
-          <div className="w-275 h-225 flex flex-col shadow-md gap-3 mt-3">
+          <div className="w-275 h-auto flex flex-col shadow-md gap-3 mt-3">
             <h1 className="text-orange-400 font-bold capitalize mt-5 text-[30px] px-4">
-            <RiCustomerService2Fill />  24/7 Service
-            </h1>
-
-            <p className="text-black px-4">
-              Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet
-              diam
-            </p>
-          </div>
-
-          <div className="w-275 h-225 flex flex-col shadow-md gap-3 mt-3">
-            <h1 className="text-orange-400 font-bold capitalize mt-5 text-[30px] px-4">
-            <IoPersonSharp />   Master Chefs
+              <RiCustomerService2Fill /> 24/7 Service
             </h1>
 
             <p className="text-black px-4">
@@ -81,9 +72,9 @@ const Service = () => {
             </p>
           </div>
 
-          <div className="w-275 h-225 flex flex-col shadow-md gap-3 mt-3">
+          <div className="w-275 h-auto flex flex-col shadow-md gap-3 mt-3">
             <h1 className="text-orange-400 font-bold capitalize mt-5 text-[30px] px-4">
-            <ImSpoonKnife /> Quality Food
+              <IoPersonSharp /> Master Chefs
             </h1>
 
             <p className="text-black px-4">
@@ -92,9 +83,9 @@ const Service = () => {
             </p>
           </div>
 
-          <div className="w-275 h-225 flex flex-col shadow-md gap-3 mt-3">
+          <div className="w-275 h-auto flex flex-col shadow-md gap-3 mt-3">
             <h1 className="text-orange-400 font-bold capitalize mt-5 text-[30px] px-4">
-            <FaCartPlus />  Online Order
+              <ImSpoonKnife /> Quality Food
             </h1>
 
             <p className="text-black px-4">
@@ -103,9 +94,20 @@ const Service = () => {
             </p>
           </div>
 
-          <div className="w-275 h-225 flex flex-col shadow-md gap-3 mt-3">
+          <div className="w-275 h-auto flex flex-col shadow-md gap-3 mt-3">
             <h1 className="text-orange-400 font-bold capitalize mt-5 text-[30px] px-4">
-            <RiCustomerService2Fill />   24/7 Service
+              <FaCartPlus /> Online Order
+            </h1>
+
+            <p className="text-black px-4">
+              Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet
+              diam
+            </p>
+          </div>
+
+          <div className="w-275 h-auto flex flex-col shadow-md gap-3 mt-3">
+            <h1 className="text-orange-400 font-bold capitalize mt-5 text-[30px] px-4">
+              <RiCustomerService2Fill /> 24/7 Service
             </h1>
 
             <p className="text-black px-4">
@@ -115,13 +117,8 @@ const Service = () => {
           </div>
         </div>
 
-
-
-
-
-        <div className="w-full h-auto flex flex-wrap items-center mt-2 px-6 md:px-24 2xl:px-96 gap-3 bg-gray-800 py-6">
-          
-          <div className="w-275 h-225 flex flex-col items-center bg-gray-800  gap-3 mt-3">
+        <div className="w-auto h-auto flex flex-wrap items-center mt-2 px-6 md:px-24 2xl:px-96 gap-3 bg-gray-800 py-6">
+          <div className="w-275 h-auto flex flex-col items-center bg-gray-800  gap-3 mt-3">
             <p className="font-semibold text-orange-500 text-[40px]">Company</p>
 
             <ul
@@ -136,7 +133,7 @@ const Service = () => {
             </ul>
           </div>
 
-          <div className="w-275 h-225 flex flex-col items-center bg-gray-800  gap-3 mt-3">
+          <div className="w-275 h-auto flex flex-col items-center bg-gray-800  gap-3 mt-3">
             <p className="font-semibold text-orange-500 text-[40px]">Contact</p>
 
             <ul
@@ -149,7 +146,7 @@ const Service = () => {
             </ul>
           </div>
 
-          <div className="w-275 h-225 flex flex-col items-center bg-gray-800  gap-3 mt-3">
+          <div className="w-275 h-auto flex flex-col items-center bg-gray-800  gap-3 mt-3">
             <p className="font-semibold text-orange-500 text-[40px]">Opening</p>
 
             <h1 className="font-semibold text-white text-[20px]">
@@ -164,8 +161,10 @@ const Service = () => {
             </h1>
           </div>
 
-          <div className="w-275 h-225 flex flex-col items-center bg-gray-800  gap-3 mt-3">
-            <p className="font-semibold text-orange-500 text-[40px]">Newsletter</p>
+          <div className="w-275 h-auto flex flex-col items-center bg-gray-800  gap-3 mt-3">
+            <p className="font-semibold text-orange-500 text-[40px]">
+              Newsletter
+            </p>
 
             <h1 className="font-semibold text-white text-[20px]">
               Dolor amet sit justo amet elitr clita ipsum elitr est.
@@ -178,7 +177,7 @@ const Service = () => {
             />
           </div>
           <div className="w-[95%] h-1 bg-orange-500"></div>
-          
+
           <motion.div className="w-full bg-gray-800 grid grid-cols-1 md:grid-cols-2 px-2 py-4">
             <div className="flex flex-col items-start justify-start">
               <p className="text-white font-semibold text-[15px]">
@@ -196,11 +195,10 @@ const Service = () => {
             </div>
           </motion.div>
         </div>
-
-
       </div>
     </>
   );
 };
 
 export default Service;
+
