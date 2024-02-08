@@ -47,6 +47,11 @@ body{
   flex: 6;
 }
 
+#title,#title2{
+  background: linear-gradient(90deg, #EF001C 0%, #120401 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
 
 @tailwind base;
 @tailwind components;
