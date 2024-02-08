@@ -37,18 +37,14 @@ const AboutUs = () => {
             </span>
           </p>
         </div>
-
-        <div className="w-full flex  items-center justify-around mt-2 px-6 md:px-24 2xl:px-96 gap-2 pb-24">
-          <div className="bg-lightOverlay hover:drop-shadow-lg backdrop-blur-md rounded-xl flex flex-wrap items-center justify-center px-4 py-2 h-full gap-5">
-            <img src={A1} alt="" className="w-80 h-60  mb-2" />
-
-            <img src={A2} alt="" className="w-80 h-60 mb-2" />
-
-            <img src={A3} alt="" className="w-80 h-60  mb-2" />
-          </div>
+        
+        <div className="gallery">
+          <div></div>
+          <div></div>
+          <div></div>
         </div>
-
-        <div className="bg-black text-white w-full h-20 py-4">
+        
+        <div className="bg-black text-white w-full h-20 py-4 mt-10">
           <marquee behavior="" direction="left" className="text-[30px]">
             DOOR DELIVERY * OUTDOOR CATERING * FINE DINING * BANQUETS HALL
           </marquee>
