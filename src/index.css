@@ -13,6 +13,39 @@ body{
 .MuiPaper-root{
   width: 100%
 }
+.gallery{
+  display: flex;
+  gap: 1rem;
+  height: 400px;
+  width: 95%;
+}
+
+.gallery > div{
+  flex: 1;
+  transition: all 1s;
+}
+
+.gallery > div:nth-child(1){
+  background: url(C:\Users\Admin\Desktop\FoodDelivery\client\src\assets\img\A1.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.gallery > div:nth-child(2){
+  background: url(C:\Users\Admin\Desktop\FoodDelivery\client\src\assets\img\A2.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.gallery > div:nth-child(3){
+  background: url(C:\Users\Admin\Desktop\FoodDelivery\client\src\assets\img\A3.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.gallery > div:hover{
+  flex: 6;
+}
 
 
 @tailwind base;
