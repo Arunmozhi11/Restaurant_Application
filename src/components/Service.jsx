@@ -29,7 +29,7 @@ const Service = () => {
 
         <div className="w-full flex flex-wrap items-center justify-center  mt-2 px-6 md:px-24 2xl:px-96 gap-3 pb-24">
 
-          <div className="w-275 h-auto flex flex-col shadow-md gap-3 mt-3">
+          <div className="w-275 h-auto flex flex-col shadow-md gap-3 mt-3 pb-3">
             <h1 className="text-orange-400 font-bold capitalize mt-5 text-[30px] px-4">
               <IoPersonSharp /> Master Chefs
             </h1>
@@ -40,7 +40,7 @@ const Service = () => {
             </p>
           </div>
 
-          <div className="w-275 h-auto flex flex-col shadow-md gap-3 mt-3">
+          <div className="w-275 h-auto flex flex-col shadow-md gap-3 mt-3 pb-3">
             <h1 className="text-orange-400 font-bold capitalize mt-5 text-[30px] px-4">
               <ImSpoonKnife /> Quality Food
             </h1>
@@ -51,7 +51,7 @@ const Service = () => {
             </p>
           </div>
 
-          <div className="w-275 h-auto flex flex-col shadow-md gap-3 mt-3">
+          <div className="w-275 h-auto flex flex-col shadow-md gap-3 mt-3 pb-3">
             <h1 className="text-orange-400 font-bold capitalize mt-5 text-[30px] px-4">
               <FaCartPlus /> Online Order
             </h1>
@@ -61,7 +61,7 @@ const Service = () => {
               diam
             </p>
           </div>
-          <div className="w-275 h-auto flex flex-col shadow-md gap-3 mt-3">
+          <div className="w-275 h-auto flex flex-col shadow-md gap-3 mt-3 pb-3">
             <h1 className="text-orange-400 font-bold capitalize mt-5 text-[30px] px-4">
               <RiCustomerService2Fill /> 24/7 Service
             </h1>
@@ -72,7 +72,7 @@ const Service = () => {
             </p>
           </div>
 
-          <div className="w-275 h-auto flex flex-col shadow-md gap-3 mt-3">
+          <div className="w-275 h-auto flex flex-col shadow-md gap-3 mt-3 pb-3">
             <h1 className="text-orange-400 font-bold capitalize mt-5 text-[30px] px-4">
               <IoPersonSharp /> Master Chefs
             </h1>
@@ -83,7 +83,7 @@ const Service = () => {
             </p>
           </div>
 
-          <div className="w-275 h-auto flex flex-col shadow-md gap-3 mt-3">
+          <div className="w-275 h-auto flex flex-col shadow-md gap-3 mt-3 pb-3">
             <h1 className="text-orange-400 font-bold capitalize mt-5 text-[30px] px-4">
               <ImSpoonKnife /> Quality Food
             </h1>
@@ -94,7 +94,7 @@ const Service = () => {
             </p>
           </div>
 
-          <div className="w-275 h-auto flex flex-col shadow-md gap-3 mt-3">
+          <div className="w-275 h-auto flex flex-col shadow-md gap-3 mt-3 pb-3">
             <h1 className="text-orange-400 font-bold capitalize mt-5 text-[30px] px-4">
               <FaCartPlus /> Online Order
             </h1>
@@ -105,7 +105,7 @@ const Service = () => {
             </p>
           </div>
 
-          <div className="w-275 h-auto flex flex-col shadow-md gap-3 mt-3">
+          <div className="w-275 h-auto flex flex-col shadow-md gap-3 mt-3 pb-3">
             <h1 className="text-orange-400 font-bold capitalize mt-5 text-[30px] px-4">
               <RiCustomerService2Fill /> 24/7 Service
             </h1>
