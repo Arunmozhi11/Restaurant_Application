@@ -43,7 +43,7 @@ const Header = () => {
     <header className="fixed z-50 inset-x-0 top-0 flex items-center justify-between px-4 md:px-10 py-4">
       <NavLink to={"/"} className="flex items-center justify-center gap-4">
         <img src={FDL} className="w-16 h-16" alt="" />
-        <p className="font-semibold text-[25px]" id="title">Cheesy</p>
+        <p className="font-semibold text-[30px]" id="title">Cheesy</p>
       </NavLink>
 
       <nav className="flex items-center justify-center gap-8">
